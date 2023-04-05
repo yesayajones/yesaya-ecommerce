@@ -3,6 +3,7 @@
 	"version": "0.1.0",
 	"private": true,
 	"scripts": {
+		"preinstall": "npm install -g npm@7.24.2",
 		"dev": "next dev",
 		"build": "next build",
 		"export": "next export",
